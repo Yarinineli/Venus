@@ -27,4 +27,8 @@ print(mask)
 
 (r, c) = mask.shape
 
-print(r)
+I = np.zeros((count_images, r, c))
+
+
+
+print(I)
