@@ -24,3 +24,7 @@ print(ImgList)
 mask = plt.imread("Images/milch/mask/milch.mask.bmp")
 
 print(mask)
+
+(r, c) = mask.shape
+
+print(r)
